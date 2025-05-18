@@ -6,5 +6,9 @@ export const routes: Routes = [
   {
     path: '',
     component: CounterComponent
+  },
+  {
+    path: 'heroes',
+    component: HeroPageComponent
   }
 ];
